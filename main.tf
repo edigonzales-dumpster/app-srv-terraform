@@ -1,9 +1,6 @@
 variable "environment" {
 }
 
-variable "floating_ip" {
-}
-
 provider "digitalocean" {}
 
 resource "digitalocean_droplet" "app-srv" {
